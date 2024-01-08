@@ -1,0 +1,37 @@
+.todo-input{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 99px;
+    overflow: hidden;
+    padding-right: 10px;
+    margin-bottom: 30px;
+    input{
+        flex: 1;
+        height: 100%;
+        border: none;
+        outline: none;
+        padding: 20px;
+        font-size: 16px;
+        &:focus{
+            outline: none;
+            border: none;
+        }
+    }
+    button{
+        border: none;
+        padding: 10px;
+        border-radius: 4px;
+        background-color: teal;
+        color: white;
+        cursor: pointer;
+        height: 40px;
+        width: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+    }
+}

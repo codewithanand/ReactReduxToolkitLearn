@@ -1,0 +1,26 @@
+.filters{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    .filter{
+        padding: 5px 15px;
+        border-radius: 4px;
+        user-select: none;
+        cursor: pointer;
+        font-size: small;
+        font-weight: bold;
+        background-color: white;
+        color: #555;
+        transition: 0.3s ease;
+        &:hover{
+            transform: translateY(2px);
+        }
+    }
+    .active{
+        background-color: lightgray;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        transform: translateY(2px);
+    }
+}
